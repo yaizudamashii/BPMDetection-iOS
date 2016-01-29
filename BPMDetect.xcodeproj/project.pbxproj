@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5103F3901C5C0C5600D6C415 /* BPMDetector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5103F38F1C5C0C5600D6C415 /* BPMDetector.mm */; };
+		5103F3921C5C0E1D00D6C415 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5103F3911C5C0E1D00D6C415 /* CoreMedia.framework */; };
+		5103F3941C5C0E3300D6C415 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5103F3931C5C0E3300D6C415 /* AudioToolbox.framework */; };
+		5103F3961C5C0E4A00D6C415 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5103F3951C5C0E4A00D6C415 /* AVFoundation.framework */; };
 		5116B6461C5BCD8800D11F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116B6451C5BCD8800D11F0E /* main.m */; };
 		5116B6491C5BCD8800D11F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116B6481C5BCD8800D11F0E /* AppDelegate.m */; };
-		5116B64C1C5BCD8800D11F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116B64B1C5BCD8800D11F0E /* ViewController.m */; };
+		5116B64C1C5BCD8800D11F0E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5116B64B1C5BCD8800D11F0E /* ViewController.mm */; };
 		5116B64F1C5BCD8800D11F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5116B64D1C5BCD8800D11F0E /* Main.storyboard */; };
 		5116B6511C5BCD8800D11F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5116B6501C5BCD8800D11F0E /* Assets.xcassets */; };
 		5116B6541C5BCD8800D11F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5116B6521C5BCD8800D11F0E /* LaunchScreen.storyboard */; };
+		517215621C5BF3AA00A77C9E /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 517215611C5BF3AA00A77C9E /* libSuperpoweredAudioIOS.a */; };
+		517215731C5BF8D200A77C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517215721C5BF8D200A77C9E /* Foundation.framework */; };
+		517215771C5BF8E100A77C9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517215761C5BF8E100A77C9E /* UIKit.framework */; };
+		5172157E1C5BFFE300A77C9E /* track_Who_Do_You_Think_You_Are_Spice_Girls.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5172157D1C5BFFE300A77C9E /* track_Who_Do_You_Think_You_Are_Spice_Girls.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5103F38E1C5C0C5600D6C415 /* BPMDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMDetector.h; sourceTree = "<group>"; };
+		5103F38F1C5C0C5600D6C415 /* BPMDetector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BPMDetector.mm; sourceTree = "<group>"; };
+		5103F3911C5C0E1D00D6C415 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5103F3931C5C0E3300D6C415 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5103F3951C5C0E4A00D6C415 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5116B6411C5BCD8800D11F0E /* BPMDetect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPMDetect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5116B6451C5BCD8800D11F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5116B6471C5BCD8800D11F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5116B6481C5BCD8800D11F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5116B64A1C5BCD8800D11F0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5116B64B1C5BCD8800D11F0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5116B64B1C5BCD8800D11F0E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		5116B64E1C5BCD8800D11F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5116B6501C5BCD8800D11F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5116B6531C5BCD8800D11F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5116B6551C5BCD8800D11F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517215611C5BF3AA00A77C9E /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSuperpoweredAudioIOS.a; path = BPMDetect/Superpowered/Superpowered/libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		517215631C5BF3E300A77C9E /* SuperpoweredDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SuperpoweredDecoder.h; path = Superpowered/Superpowered/SuperpoweredDecoder.h; sourceTree = "<group>"; };
+		517215641C5BF40B00A77C9E /* SuperpoweredAudioBuffers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredAudioBuffers.h; path = Superpowered/Superpowered/SuperpoweredAudioBuffers.h; sourceTree = "<group>"; };
+		517215671C5BF40B00A77C9E /* SuperpoweredSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredSimple.h; path = Superpowered/Superpowered/SuperpoweredSimple.h; sourceTree = "<group>"; };
+		517215691C5BF47A00A77C9E /* SuperpoweredAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SuperpoweredAnalyzer.h; path = Superpowered/Superpowered/SuperpoweredAnalyzer.h; sourceTree = "<group>"; };
+		517215721C5BF8D200A77C9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		517215761C5BF8E100A77C9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5172157D1C5BFFE300A77C9E /* track_Who_Do_You_Think_You_Are_Spice_Girls.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = track_Who_Do_You_Think_You_Are_Spice_Girls.m4a; path = Resources/track_Who_Do_You_Think_You_Are_Spice_Girls.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5103F3961C5C0E4A00D6C415 /* AVFoundation.framework in Frameworks */,
+				5103F3941C5C0E3300D6C415 /* AudioToolbox.framework in Frameworks */,
+				5103F3921C5C0E1D00D6C415 /* CoreMedia.framework in Frameworks */,
+				517215771C5BF8E100A77C9E /* UIKit.framework in Frameworks */,
+				517215731C5BF8D200A77C9E /* Foundation.framework in Frameworks */,
+				517215621C5BF3AA00A77C9E /* libSuperpoweredAudioIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,7 @@
 		5116B6381C5BCD8800D11F0E = {
 			isa = PBXGroup;
 			children = (
+				5172155E1C5BF12F00A77C9E /* Frameworks */,
 				5116B6431C5BCD8800D11F0E /* BPMDetect */,
 				5116B6421C5BCD8800D11F0E /* Products */,
 			);
@@ -58,10 +86,14 @@
 		5116B6431C5BCD8800D11F0E /* BPMDetect */ = {
 			isa = PBXGroup;
 			children = (
+				517215781C5BFE9C00A77C9E /* Resources */,
+				5172155D1C5BF0DC00A77C9E /* Superpowered */,
+				5103F38E1C5C0C5600D6C415 /* BPMDetector.h */,
+				5103F38F1C5C0C5600D6C415 /* BPMDetector.mm */,
 				5116B6471C5BCD8800D11F0E /* AppDelegate.h */,
 				5116B6481C5BCD8800D11F0E /* AppDelegate.m */,
 				5116B64A1C5BCD8800D11F0E /* ViewController.h */,
-				5116B64B1C5BCD8800D11F0E /* ViewController.m */,
+				5116B64B1C5BCD8800D11F0E /* ViewController.mm */,
 				5116B64D1C5BCD8800D11F0E /* Main.storyboard */,
 				5116B6501C5BCD8800D11F0E /* Assets.xcassets */,
 				5116B6521C5BCD8800D11F0E /* LaunchScreen.storyboard */,
@@ -77,6 +109,38 @@
 				5116B6451C5BCD8800D11F0E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5172155D1C5BF0DC00A77C9E /* Superpowered */ = {
+			isa = PBXGroup;
+			children = (
+				517215691C5BF47A00A77C9E /* SuperpoweredAnalyzer.h */,
+				517215641C5BF40B00A77C9E /* SuperpoweredAudioBuffers.h */,
+				517215671C5BF40B00A77C9E /* SuperpoweredSimple.h */,
+				517215631C5BF3E300A77C9E /* SuperpoweredDecoder.h */,
+			);
+			name = Superpowered;
+			sourceTree = "<group>";
+		};
+		5172155E1C5BF12F00A77C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5103F3951C5C0E4A00D6C415 /* AVFoundation.framework */,
+				5103F3931C5C0E3300D6C415 /* AudioToolbox.framework */,
+				5103F3911C5C0E1D00D6C415 /* CoreMedia.framework */,
+				517215761C5BF8E100A77C9E /* UIKit.framework */,
+				517215721C5BF8D200A77C9E /* Foundation.framework */,
+				517215611C5BF3AA00A77C9E /* libSuperpoweredAudioIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		517215781C5BFE9C00A77C9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5172157D1C5BFFE300A77C9E /* track_Who_Do_You_Think_You_Are_Spice_Girls.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5172157E1C5BFFE300A77C9E /* track_Who_Do_You_Think_You_Are_Spice_Girls.m4a in Resources */,
 				5116B6541C5BCD8800D11F0E /* LaunchScreen.storyboard in Resources */,
 				5116B6511C5BCD8800D11F0E /* Assets.xcassets in Resources */,
 				5116B64F1C5BCD8800D11F0E /* Main.storyboard in Resources */,
@@ -149,7 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5116B64C1C5BCD8800D11F0E /* ViewController.m in Sources */,
+				5116B64C1C5BCD8800D11F0E /* ViewController.mm in Sources */,
+				5103F3901C5C0C5600D6C415 /* BPMDetector.mm in Sources */,
 				5116B6491C5BCD8800D11F0E /* AppDelegate.m in Sources */,
 				5116B6461C5BCD8800D11F0E /* main.m in Sources */,
 			);
@@ -263,6 +329,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BPMDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BPMDetect/Superpowered",
+					"$(PROJECT_DIR)/BPMDetect/Superpowered/Superpowered",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yukikonda.BPMDetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,6 +345,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BPMDetect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BPMDetect/Superpowered",
+					"$(PROJECT_DIR)/BPMDetect/Superpowered/Superpowered",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yukikonda.BPMDetect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +374,7 @@
 				5116B65A1C5BCD8800D11F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
