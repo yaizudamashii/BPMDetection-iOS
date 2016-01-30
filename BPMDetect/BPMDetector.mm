@@ -93,6 +93,10 @@
     
     free(averageWaveForm);
     free(peakWaveForm);
+    free(lowWaveform);
+    free(midWaveform);
+    free(highWaveform);
+    free(notes);
     free(overViewWaveForm);
     free(keyIndex);
     free(waveFormSize);
